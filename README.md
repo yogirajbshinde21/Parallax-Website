@@ -4,6 +4,12 @@ This project is a responsive parallax website created using HTML and CSS. It fea
 
 ---
 
+## Preview
+
+![Uploading parallex-front.png…]()
+
+---
+
 ## Features
 
 - Smooth scrolling experience
@@ -16,12 +22,6 @@ This project is a responsive parallax website created using HTML and CSS. It fea
 
 - HTML
 - CSS
-
----
-
-## Preview
-
-![Uploading image-gallery-front.png…]()
 
 ---
 
