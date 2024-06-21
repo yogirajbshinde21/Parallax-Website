@@ -6,7 +6,7 @@ This project is a responsive parallax website created using HTML and CSS. It fea
 
 ## Preview
 
-![Uploading parallex-front.png…]()
+![parallex-front](https://github.com/yogirajbshinde21/Parallax-Website/assets/84953719/81461e88-8edf-457f-83e2-0992d4d34ccc)
 
 ---
 
