@@ -16,7 +16,7 @@
 
 .container{
     position: relative;    /*Do we need this or not ? Why ? Check after the completion of this project.*/
-    height: 100%;
+    height: 100%;    /* Yes so that the relative properities are applied in relation to the parent element */
 
     display: flex;
     justify-content: center;
@@ -25,6 +25,7 @@
     transform-style: preserve-3d;
 
     z-index: -1;   /*Do we need this? If yes, then why?*/
+                  /*Yes so that the background images do not overlap the text?*/
 }
 
 .background{
@@ -46,7 +47,7 @@
 }
 
 h1{
-    /* Data will be given, you don't need to remember it. */
+    /* Data will be given, you don't need to remember it. */ /*Cool*/
     position: absolute;
     top: 5rem;
 
@@ -55,6 +56,28 @@ h1{
     color: white;
     text-shadow: 0 0 10px rgba(0,0,0,0.3);
 
+}
+/*This is my understanding of the problem, just move each element individually 😅*/
+#bike
+{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    left:54.8%;
+}
+#para   
+{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    left:38%;
+}
+#surf
+{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    left:58%;
 }
 
 
@@ -67,6 +90,9 @@ section{
 .secHeading{
     font-size: 5rem;
     padding: 0 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .text{
@@ -95,24 +121,25 @@ section{
     transform: translateX(-50%) translateX(-50%);
     color: black;
     font-size: 3.5rem;
-
-
-
-
-
-
+    margin:0;
 }
+
 
 
 
 /* HW : Why did we used background-image instead of <img> tag ? */
 
+/* My Understaning:An image img is it's own seperate element on the webpage while the background image url adds an image which is related
+to the element you are adding it on to. Img tags are generally slower when loading pages compared to background images but that's my thougt 🙃. */
 .bg1{
     background-image: url(sport-1.jpg);
 }
 
 .bg2{
     background-image: url(sport-2.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .bg3{
